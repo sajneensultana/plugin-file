@@ -1,0 +1,53 @@
+img{
+    width: 100%;
+    height: auto;
+}
+header{
+    background: rgb(199, 202, 206);
+    padding: 10px 0;
+}
+header:after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.menu-icon{
+    width: 20px;
+    float: right;
+    display: none;
+}
+.logo{
+    padding: 20px 0;
+}
+.menu{
+    display: block;
+}
+   
+.menu ul{
+    display: flex;
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    display: block;
+    padding:25px 20px 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+
+    
+}
+.menu ul li a{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #0da039ec;
+
+}
+.banner{
+    background-image: url(img/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
