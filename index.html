@@ -2,7 +2,7 @@
    <head>
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <title>bootstrap</title>
-      
+      <script src="https://kit.fontawesome.com/d84c8ea69b.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <link rel="stylesheet" href="css/responsive.css">
@@ -17,9 +17,11 @@
                  </div>
                </div>
                <div class="col-md-10 col-9">
-                 <div class="menu-icon">
-                     <a><img src="img/plus.png"></a>
-                  </div>
+                  <div class="menu-icon">
+                       
+                     <i class="fas fa-bars"></i>
+                        </div>
+                  
                   <nav class="menu">
                      <ul>
                         <li><a href="#">home</a></li>
@@ -43,55 +45,63 @@
       <div class="container">
          <br><br>
          <div class="row">
-            <div class="col-md-4 ">
+            <div class="col-md-4 col-12 ">
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut nisi enim excepturi sint molestiae necessitatibus veniam officia nam et. Cum possimus
                   eos error dolore hic corrupti nobis dignissimos nesciunt!</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-12">
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut nisi enim excepturi sint molestiae necessitatibus veniam officia nam et. Cum possimus
                   eos error dolore hic corrupti nobis dignissimos nesciunt!</p>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-12">
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut nisi enim excepturi sint molestiae necessitatibus veniam officia nam et. Cum possimus
                   eos error dolore hic corrupti nobis dignissimos nesciunt!</p>
             </div>
          </div>
       </div>
+<div class="product-area">
       <div class="container">
-         <div class="bnt-area button-group filter-button-group">
-            <button  data-filter="*">all</button>
-            <button  data-filter=".laptop">laptop</button>
-            <button  data-filter=".tab">tab</button>
-            <button  data-filter=".room">room</button>
-            <button  data-filter=".relaxplace">relax place</button>
-            <button  data-filter=".hotel">hotel</button>
-         </div>
-         <div class="product-area grid">
+        <div class="row">
+		  <div class="col-4">
+		      <div class="bnt-area button-group filter-button-group">
+					<button  data-filter="*" class="single-btn">all</button>
+					<button  data-filter=".laptop" class="single-btn">laptop</button>
+					<button  data-filter=".tab" class="single-btn">tab</button>
+					<button  data-filter=".room" class="single-btn">bed room</button>
+					<button  data-filter=".relaxplace" class="single-btn">relax place</button>
+					<button  data-filter=".hotel" class="single-btn">hotel</button>
+             </div>
+        
+		  </div>
+		  <div class="col-8">
+		        <div class="product-area grid">
             <div class="row">
-               <div class="col-md-4 grid-item room">
+               <div class="col-md-4  product-item  grid-item room">
                   <img src="img/img2.jpg">
                </div>
-               <div class="col-md-4 grid-item  relaxplace">
+               <div class="col-md-4  product-item grid-item  relaxplace">
                   <img src="img/img5.jpg">
                </div>
-               <div class="col-md-4 grid-item tab">
+               <div class="col-md-4  product-item  grid-item tab">
                   <img src="img/img4.jpg">
                </div>
             
-               <div class="col-md-4 grid-item hotel">
+               <div class="col-md-4 product-item  grid-item hotel">
                   <img src="img/img6.jpg">
                </div>
-               <div class="col-md-4 grid-item relaxplace">
+               <div class="col-md-4 product-item grid-item relaxplace">
                   <img src="img/img8.jpg">
                </div>
-               <div class="col-md-4 grid-item laptop">
+               <div class="col-md-4  product-item grid-item laptop">
                   <img src="img/img.webp">
                </div>
             </div>
          </div>
+		  </div>
          
-         
+          </div>
       </div>
+</div>
      
      
         

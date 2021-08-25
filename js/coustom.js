@@ -1,5 +1,5 @@
 
-$('.menu-icon a').on('click',function(){
+$('.menu-icon i').on('click',function(){
 	$('.menu').slideToggle();
 });
 

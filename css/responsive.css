@@ -1,24 +1,32 @@
 @media(max-width: 768px){
-    .menu{
+   
+	.menu-icon{
+       
+        display: block;
+		
+		
+    }
+	
+	.menu{
 		display: none;
-		background:rgb(92, 91, 91);
-		position:absolute;
-		top:50px;
-		left:60%;
+		
 	
 	
     }
 	.menu ul{
 		display:block;
-		padding-left:0;
+		background:rgb(92, 91, 91);
+		position:absolute;
+		top:30px;
+		left:60%;
 		
+		
+	}
+	.menu ul li{
+		padding: 10px 25px;
 	}
 	
 
 		
-    .menu-icon{
-       
-        display: block;
-		
-    }
+   
 }
